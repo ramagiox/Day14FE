@@ -1,0 +1,19 @@
+<div ng-init="getPetugas()" class="panel panel-success">
+    <div class="panel-body">
+        <div ng-repeat="item in petugas">
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <h2>{{item.kdPetugas}}</h2>
+                </div>
+                <div class="col-md-4">
+                    <h2>{{item.NamaPetugas}}</h2>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-primary" href="#/petugas/{{item._id}}">Detail</a>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+</div>

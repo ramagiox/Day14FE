@@ -1,0 +1,17 @@
+{
+  "name": "day14",
+  "version": "1.0.0",
+  "description": "angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jalan" : "node index.js"
+  },
+  "author": "rama",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "bower-component-files": "^1.0.2",
+    "express": "^4.16.1"
+  }
+}

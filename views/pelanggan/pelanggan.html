@@ -1,0 +1,19 @@
+<div ng-init="getPelanggan()" class="panel panel-success">
+    <div class="panel-body">
+        <div ng-repeat="item in pelanggan">
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <h2>{{item.kdPelanggan}}</h2>
+                </div>
+                <div class="col-md-4">
+                    <h2>{{item.NamaPelanggan}}</h2>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-primary" href="#/pelanggan/{{item._id}}">Detail</a>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+</div>
